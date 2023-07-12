@@ -11499,6 +11499,7 @@ p {
 
 .page-section {
     padding: 6rem 0;
+    background-color: white;
 }
 
 #video1 {
@@ -11506,6 +11507,12 @@ p {
     width: 45%;
     height: 50%;
     /* z-index: 4; */
+}
+
+#video {
+    position: initial;
+    width: 45%;
+    height: 50%;
 }
 
 .page-section h2.section-heading,
