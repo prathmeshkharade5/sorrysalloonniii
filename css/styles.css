@@ -11585,6 +11585,14 @@ p {
 }
 
 .wordart.italic-outline .text {
+    /* letter-spacing: -0.01em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #dfcfe0;
+    -webkit-text-stroke: 0.01em #000;
+    filter: progid: DXImageTransform.Microsoft.Glow(Color=#000000, Strength=1);
+    text-shadow: 0.03em 0.03em 0 #db4f95; */
     letter-spacing: -0.01em;
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -11666,6 +11674,9 @@ p {
 }
 
 #mainNav {
+    /* padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline-start: 8.5rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-inline-start: 8.5rem;
@@ -11751,15 +11762,12 @@ header.masthead {
     background-position: center center;
     background-size: cover; */
     padding-top: 10.5rem;
-    /* padding-bottom: 10rem; */
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-image: url(../Images/th1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    /* background-size: cover; */
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header.masthead .masthead-subheading {
