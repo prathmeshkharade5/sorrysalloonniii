@@ -12,6 +12,7 @@
 var x = document.getElementById("myAudio").volume = 0.1;
 
 
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -27,6 +28,12 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
+
+    //play sound 
+
+
+
+
 
     // Shrink the navbar 
     navbarShrink();
