@@ -11632,6 +11632,15 @@ p {
     font-size: 30px;
 }
 
+.header2 {
+    padding: 0px;
+    text-align: center;
+    background: var(--bs-black);
+    /* color: white; */
+    /* font-size: 30px; */
+    margin-block-end: revert;
+}
+
 .footer {
     padding: 10px;
     text-align: center;
@@ -11677,7 +11686,7 @@ p {
     /* padding-top: 1rem;
     padding-bottom: 1rem;
     padding-inline-start: 8.5rem; */
-    padding-top: 6rem;
+    padding-top: 10rem;
     padding-bottom: 1rem;
     padding-inline-start: 9rem;
     /* background-color: #212529; */
@@ -11761,7 +11770,7 @@ header.masthead {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover; */
-    padding-top: 15.5rem;
+    padding-top: 12.5rem;
     text-align: center;
     color: rgb(255, 255, 255);
     background-image: url(../images/th1.jpg);
