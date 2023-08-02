@@ -343,6 +343,7 @@ figure {
 img,
 svg {
     vertical-align: middle;
+    margin-block-start: 20px;
 }
 
 table {
@@ -11612,7 +11613,7 @@ p {
 
 #video {
     position: initial;
-    width: 40%;
+    width: 50%;
     height: 50%;
 }
 
